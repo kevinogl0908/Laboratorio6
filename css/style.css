@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
 }
 
+
 nav {
     background-color: #e63946; 
     padding: 15px 0;
@@ -40,9 +41,10 @@ nav a:hover {
     color: #121212; 
 }
 
+
 main {
     max-width: 800px;
-    margin: 40px auto; 
+    margin: 40px auto;
     padding: 30px;
     background-color: #1e1e1e; 
     border-radius: 12px; 
@@ -58,7 +60,6 @@ h1 {
     letter-spacing: 1px;
 }
 
-
 p {
     margin-bottom: 15px;
     font-size: 1.1rem;
@@ -73,5 +74,12 @@ img {
     height: auto;
     margin: 30px auto 0; 
     border-radius: 8px;
-    border: 3px solid #e63946;
+    border: 3px solid #e63946; 
+}
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    margin: 0;
+    border: none;
+    border-radius: 5px 5px 0 0;
 }
