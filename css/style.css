@@ -85,3 +85,13 @@ img {
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
 }
+
+h5{
+    color #164e9c;
+    font-weight: bold;
+}
+
+h1{
+    color yellow;
+    font-weight: bold;
+}
